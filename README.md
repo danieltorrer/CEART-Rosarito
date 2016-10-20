@@ -40,3 +40,8 @@ Dentro de este repositorio se podran encontrar los materiales que se manejan den
 [Grupo en facebook] (https://www.facebook.com/groups/641235076017306/)
 
 [OpenProcessing] (http://www.openprocessing.org/)
+
+## Archivos
+
+[Mapa] (https://www.dropbox.com/s/l3r291ugc4f1nyu/WorldMap.svg?dl=0)
+[Datos] (https://www.dropbox.com/s/d6pv7po8uie36ow/MeteorStrikes.csv?dl=0)
