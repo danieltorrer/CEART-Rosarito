@@ -7,7 +7,12 @@ HColorPool colors;
 void setup() {
   size(600, 600);
   
-  colors = new HColorPool(#9F7689,#FE5B7B,#FF738D,#FF8297,#FBF5DE,#EAE6CB,#625182);
+  colors = new HColorPool()
+    .add(#625182, 100)
+    .add(#FF8297, 20)
+    .add(#FF738D, 30)
+    .add(#FE5B7B, 20)
+    .add(#9F7689, 10);
 
   //Lienzo
   H.init(this).background(#202020);
@@ -18,7 +23,7 @@ void setup() {
     d
       .strokeWeight(1)
       .stroke( colors.getColor() )
-      .fill( colors.getColor() )
+      .fill( colors.getColor(), 100 )
       .size( (int) random(25, 125) )
       .rotate( (int) random(360) )
       .loc( (int) random(width), (int) random(height) )
